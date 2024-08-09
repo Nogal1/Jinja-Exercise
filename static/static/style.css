@@ -1,0 +1,95 @@
+/* General body styling */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    /* Playful font */
+    background: linear-gradient(135deg, #FFDD44, #FF66CC, #66CCFF);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the form */
+.container {
+    background: linear-gradient(135deg, #FFDD44, #FF66CC, #66CCFF);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: auto;
+    text-align: center;
+}
+
+/* Form header */
+h1 {
+    font-family: 'Impact', sans-serif;
+    /* Bold and playful font */
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    /* Color matching the design */
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 2px solid #66CCFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit button styling */
+button {
+    background-color: #ed48b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: auto;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    font-family: 'Impact', sans-serif;
+}
+
+button:hover {
+    background-color: #FF44AA;
+    transform: translateY(-2px);
+}
+
+/* Story display styling */
+.story {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-left: 4px solid #FF66CC;
+    font-style: italic;
+    border-radius: 8px;
+}
+
+/* Link styling */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+a:hover {
+    text-decoration-style: solid;
+    transform: translateY(-2px);
+}
